@@ -1,0 +1,74 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@400;
+
+700&display=swap);* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.top-mini-header {
+  background-color: #0282f9;
+  height: 30px;
+}
+
+.top-mini-header nav {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  width: 89%;
+  height: 100%;
+}
+
+.top-mini-header nav span {
+  margin-right: 80px;
+}
+
+.top-mini-header nav span a {
+  color: white;
+  font-size: 12px;
+}
+
+.bottom-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+}
+
+.bottom-header .logo {
+  padding-right: 20px;
+  width: 100px;
+}
+
+.bottom-header nav ul {
+  display: flex;
+}
+
+.bottom-header nav ul li {
+  padding-inline: 10px;
+}
+
+.jumbotron {
+  height: 300px;
+  background-image: url(/images/jumbotron.jpg?1b0a3671766964a4114f90322970b124);
+  background-size: cover;
+}
+

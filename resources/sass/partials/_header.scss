@@ -1,0 +1,39 @@
+.top-mini-header {
+    background-color: $main_color;
+    height: 30px;
+    nav {
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        width: 89%;
+        height: 100%;
+
+        span {
+            margin-right: 80px;
+            a{
+                color: white;
+                font-size: 12px;
+            }
+        }
+    }
+}
+
+.bottom-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    .logo{
+        padding-right: 20px;
+        width: 100px;
+    }
+    nav{
+        ul{
+            display: flex;
+            li{
+                padding-inline: 10px;
+            };
+        }
+    };
+}
+
