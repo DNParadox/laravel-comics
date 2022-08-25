@@ -8,12 +8,13 @@
 .containerProducts{
     background-color: black;
     color: white;
+    padding-block: 40px;
 }
 
 .container {
     width: 80%;
     margin: auto;
-    padding-block: 40px;
+
 }
 
 .products {
@@ -34,3 +35,27 @@
 }
 
 
+.section2 {
+    height: 150px;
+    background-color: $main_color;
+    .product_placement {
+        display:flex;
+        justify-content: space-evenly;
+        height: 150px;
+        align-items: center;
+        .product_accessory{
+            width: 100px;
+            display: flex;
+            font-size: 12px;
+            img {
+                width: 60px;
+            }
+        .textAccessory{
+            align-self: center;
+            padding-left: 15px;
+            color: white;
+        }
+        }
+    }
+ 
+}

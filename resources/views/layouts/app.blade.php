@@ -14,6 +14,7 @@
     <main>
         @include('components.jumbotron')
         @yield('main_content')
+        @yield('side_content')
     </main>
 </body>
 </html>
