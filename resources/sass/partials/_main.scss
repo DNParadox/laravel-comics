@@ -4,6 +4,10 @@
     background-size: cover;
 }
 
+.current-serie{
+    position: absolute;
+    top: 98%;
+}
 
 .containerProducts{
     background-color: black;
@@ -16,7 +20,15 @@
     margin: auto;
 
 }
-
+.btnspecial{
+    padding: 15px;
+    background-color: #0282f9;
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    font-size: 12px;
+}
 .products {
     display: flex;
     flex-wrap: wrap;

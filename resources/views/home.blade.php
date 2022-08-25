@@ -3,6 +3,7 @@
 @section('main_content')
     <section class="containerProducts">
         <div class="container">  
+            <span class="btnspecial current-serie"><h3>CURRENT SERIES</h3></span>
             <div class="products">
                 @foreach ($comics as $comic)
                     <div class="product">
@@ -16,6 +17,7 @@
                 @endforeach 
             </div>
         </div>
+        <div class="btnspecial"><a href="#">LOAD MORE</a></div>
     </section>
 @endsection 
 
