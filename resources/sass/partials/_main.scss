@@ -71,3 +71,138 @@
     }
  
 }
+
+.colorline{
+    background-color: $main_color;
+    height: 80px;
+}
+
+.container2{
+    width: 60%;
+    margin: auto;
+}
+
+.comic-info {
+    position: relative;
+}
+.comicCover{
+    width: 150px;
+    position: absolute;
+    top: -40%;
+    z-index: 99;
+    .upComic {
+        position: absolute;
+        top: 0%;
+    }
+
+    .downComic{
+        position: absolute;
+        bottom: 0%;
+        width: 100%;
+    }
+    .btntiny{
+        font-size: 10px;
+        color:white;
+        background-color: #00a9d9;;
+        padding: 3px;
+        text-align: center;
+        padding-inline: 5px;
+    }
+}
+
+.bar{
+    display: flex;
+    width: 86%;
+}
+.border {
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.comicSection {
+    padding-block: 50px;
+    .greenbar {
+        .colortext{
+            color: white;
+        }
+      
+        color: #9ef392;;
+        display: flex;
+        background-color: #55ba59;
+        padding: 18px;
+        border-bottom: 1px solid black;
+        .price{
+            width: 55%;
+        }
+
+        .available{
+            width: 20%;
+        }
+    }
+    .maxwidth{
+        width: 60%;
+        display: flex;
+            justify-content: space-between;
+    }
+    .lowwidth{
+        width: 25%;
+        justify-content: center;
+        color: white;
+    }
+    .description{
+        width: 76%;
+        padding-top: 10px;
+        font-size: 14px;
+        line-height: 22px;
+    }
+}
+
+.adv{
+    width: 300px;
+    position: absolute;
+    top: 29%;
+    right: 12%;
+}
+
+.greysection{
+    background-color: #f6f6f6;;
+}
+
+.container3{
+    width: 50%;
+    margin: auto;
+}
+
+.details {
+    display: flex;
+    .talent{
+        width: 55%;
+    }
+    h3 {
+        padding-block: 30px;
+    }
+}
+.specific {
+    display: flex;
+    padding-bottom: 10px;
+    width: 90%;
+    border-top: 1px solid black;
+    padding-top: 10px;
+}
+.second-text{
+    font-size: 10px;
+
+}
+.artists{
+    width: 55%;
+    font-size: 13px;
+}
+.area-artist{
+    padding-left: 60px;
+    color: #72b5db;
+
+}
+
+.border-bottom{
+    border-bottom: 1px solid black;
+    padding-bottom: 5px 
+}
