@@ -3,3 +3,34 @@
     background-image: url(../../../public/img/jumbotron.jpg);
     background-size: cover;
 }
+
+
+.containerProducts{
+    background-color: black;
+    color: white;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding-block: 40px;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    .product {
+        width: calc(100% / 6 - 10px); 
+        padding-block: 10px;
+        img {
+            width: 120px;
+            display: block;
+            margin-inline: auto;
+        }
+        .title{
+            text-align: center;
+        }
+    }
+}
+
+

@@ -12,9 +12,7 @@
     @include('partials.header')
 
     <main>
-        <section class="jumbotron">
-       
-        </section>
+        @include('components.jumbotron')
         @yield('main_content')
     </main>
 </body>

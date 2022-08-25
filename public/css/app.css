@@ -72,3 +72,34 @@ a {
   background-size: cover;
 }
 
+.containerProducts {
+  background-color: black;
+  color: white;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  padding-block: 40px;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.products .product {
+  width: calc(16.6666666667% - 10px);
+  padding-block: 10px;
+}
+
+.products .product img {
+  width: 120px;
+  display: block;
+  margin-inline: auto;
+}
+
+.products .product .title {
+  text-align: center;
+}
+
